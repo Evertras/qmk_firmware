@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |AS_ON |AS_UP |      |      |      |      |-------.    ,-------| Left | Down |  Up  |Right |  =   |      |
  * |------+------+------+------+------+------|       |    |       |------+------+------+------+------+------|
- * |AS_OFF|AS_DWN|      |      |      |      |-------|    |-------|      |      |      |      |      |      |
+ * |AS_OFF|AS_DWN| CUT  | COPY | PASTE|      |-------|    |-------|      |      |      |      |      |      |
  * `-----------------------------------------/       /     \      \-----------------------------------------'
  *                   | LAlt | LGUI |LOWER | /Enter  /       \Space \  |Delete| RAISE|INSERT|
  *                   |      |      |      |/       /         \      \ |      |      |      |
@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                     KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12, \
   XXXXXXX, S(KC_1), S(KC_2), S(KC_3), S(KC_4), S(KC_5),                   S(KC_6), S(KC_7), S(KC_8), S(KC_9), S(KC_0), S(KC_GRV), \
   KC_ASON, KC_ASUP, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, KC_EQUAL, XXXXXXX, \
-  KC_ASOFF,KC_ASDN, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
+  KC_ASOFF,KC_ASDN, KC_CUT,  KC_COPY, KC_PSTE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, \
                              _______, _______, _______, _______, _______, KC_DEL,  _______, _______\
 ),
 /* RAISE
