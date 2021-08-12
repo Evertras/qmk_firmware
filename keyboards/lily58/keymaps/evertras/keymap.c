@@ -187,3 +187,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   return true;
 }
 
+bool get_auto_shifted_key(uint16_t keycode, keyrecord_t *record) {
+  switch (keycode) {
+    case KC_LBRC:
+    case KC_RBRC:
+    return true;
+  }
+  return false;
+}
+
