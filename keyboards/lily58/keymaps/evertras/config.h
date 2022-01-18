@@ -48,3 +48,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Auto shift timeout in milliseconds
 #define AUTO_SHIFT_TIMEOUT 100
 
+// 10 minutes before fading out
+//#define OLED_TIMEOUT 600000
+
